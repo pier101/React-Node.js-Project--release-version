@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /weverse-aws-key.pem
-/session
+/sessions
 
 # dotenv environment variables file
 /.env
