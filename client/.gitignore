@@ -2,10 +2,9 @@
 
 # dependencies
 /node_modules
-/.session
 /.pnp
 .pnp.jsgit
-weverse.pem
+/.session
 /.env
 /.env.development
 /.env.production
