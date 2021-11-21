@@ -1,0 +1,234 @@
+
+
+
+
+/* ------------아티스트 정보 부분------------- */
+.artistBox{
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    flex-flow: column ;
+}
+
+.artistInfo-box{
+    width: 500px;
+    padding: 40px;
+}
+.artistInfo-box div h2{
+    font-weight: 700;
+    text-align: center;
+}
+.artistInfo-box div img {
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 15%;
+}
+.artistInfo-box div button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 17px;
+    border: none;
+    background-color: #9a67ea;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    box-shadow: 0px 1px 1px 1px #9a67ea;
+    margin-left: 35%;
+}
+.artistInfo-box div button:hover{
+    background-color: #895ece;
+}
+.artistInfo-box .artistname{
+    padding: 40px 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.artistInfo-box .button{
+    padding: 0px 40px;
+}
+
+/* .aside-box{
+    position: sticky;
+} */
+
+/* -------------------Feed 부분--------------------- */
+/* feed 입력 생성하는 곳 */
+.feed-input-box{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.feed-input-box h5{
+    text-align: center;
+    font-weight: bold
+}
+.feed-input-box input{
+    color: #fff;
+    font-weight: 550;
+    background-color: rgb(167, 102, 173);
+}
+.feed-input-box input:hover{
+    color: #fff;
+    background-color: rgb(151, 70, 158);
+}
+
+textarea{
+    border-radius: 5%;
+    border:1px solid rgb(236, 235, 235);
+}
+.textarea{
+    border: 3px solid  rgb(229, 189, 240);
+    border-radius: 5% 5% 0px 0px;
+}
+
+/* 생성된 feed들 */
+.feed{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    /* border-radius: 25px; */
+    border: 1px solid rgba(211, 206, 206);
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 2px 1px lightgray;
+}
+.feed legend h6{
+    margin-left: 10px;
+}
+.feeder{
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 25px 25px 0 0; */
+    padding: 8px;
+    width: 100%;
+    font-weight: 700;
+    background-color: rgba(211, 206, 206, 0.664);
+    /* background-color: rgba(226, 193, 240, 0.95); */
+}
+.feeder img{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.feeder span{
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.feed-content{
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.feed-content p{
+    white-space: pre-line;
+    /* JSX에서 줄바꿈 이거 찾느라 노가다;; */
+    /* 
+        pre-wrap: 연속 공백 유지. 줄 바꿈은 개행 문자와
+        요소에서 일어나며, 한 줄이 너무 길어서 넘칠 경우 자동으로 줄을 바꿉니다.
+        pre-line: 연속 공백을 하나로 합침. 줄바꿈은 개행 문자와
+        요소에서 일어나며, 한 줄이 너무 길어서 넘칠 경우 자동으로 줄을 바꿉니다. 
+    */
+}
+.feed-content .date{
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.feed-content img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}   
+.feeder button{
+    font-size: 12px;
+}
+.feeder div{
+    margin-right: 20px;
+}
+
+
+.comment-content{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-content .id{
+    display: flex;
+    flex-direction: row;
+    font-weight: 650;
+}
+.comment-content span{
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(121, 119, 119);
+}
+.comment-content .button{
+    width: 140px;
+}
+.comment-content div button{
+    margin-right: 10px;
+}
+
+
+
+/* 이미지 */
+.OOTDwrite-input-file{
+    margin-top: 10px;
+    padding: 6px 15px;
+    background-color: var(--main-color-2);
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* ------------------메뉴부분----------------- */
+.menu-box{
+    margin-left: 58%;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-button{
+    border: none;
+    font-size: 23px;
+    font-weight: 620;
+    color: rgb(61, 61, 61);
+    background-color: #fff;
+    margin: 10px 0px;
+}
+.menu-button:hover{
+    color: #9a67ea;
+}
+
+
+/* --------아티스트 렌더링시---------- */
+.feed-input-box-art{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.feed-input-box-art h5{
+    text-align: center;
+    font-weight: bold
+}
+.feed-input-box-art input{
+    color: #fff;
+    font-weight: 550;
+    background-color: rgb(96, 204, 159);
+}
+.feed-input-box-art input:hover{
+    color: #fff;
+    background-color: rgb(72, 153, 119);
+}
+
+
+.textarea-art{
+    border: 3px solid  rgb(87, 206, 147);
+    border-radius: 5% 5% 0px 0px;
+}

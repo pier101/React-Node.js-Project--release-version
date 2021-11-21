@@ -1,0 +1,46 @@
+fieldset{
+    border: 0px;
+    text-align: center;
+}
+.find-table{
+    width: 30%;
+    margin: 20px auto;
+}
+h2{
+    color: #c371e4;
+}
+hr{
+    margin: 5px auto;
+    
+    width: 80%;
+}
+h3{
+    font-weight: normal;
+    color: rgb(131, 129, 129);
+    margin: 10px 0px;
+}
+#pwd{
+    margin-top: 80px;
+}
+
+.find-table th{
+    color: rgb(85, 83, 83);
+}
+input{
+    height: 25px;
+    margin: 7px 0px;
+    border: 0.6px solid rgb(199, 196, 196);
+}
+#findid, #findpwd{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(161, 161, 161);
+    color: #fff;
+    cursor: pointer;    
+    border: none;
+    font-size: 16px;
+}
+#findpwd:hover, #findpwd:hover{
+    background-color: gray;
+}
